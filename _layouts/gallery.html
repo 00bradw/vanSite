@@ -1,0 +1,107 @@
+---
+layout: default
+---
+
+<div class="page-content">
+  <h1>
+    {{ page.title }}
+  </h1>
+  <article>
+    {{ content }} <!-- The text should render here -->
+  </article>
+  <div class="gallery">
+    {% if page.image_folder %}
+    {% assign image_directory = page.image_folder %}
+    {% else %}
+    {% assign image_directory = 'assets/images/' %}
+    {% endif %}
+    {% for image in site.static_files %}
+    {% if image.path contains image_directory %}
+    <div class="gallery-item">
+      <div class="square">
+        <img src="{{ image.path | relative_url }}" alt="{{ image.name }}">
+        <div class="overlay">
+          <span class="image-name">{{ image.name | split: '/' | last | split: '.' | first }}</span>
+        </div>
+      </div>
+    </div>
+    {% endif %}
+    {% endfor %}
+  </div>
+</div>
+
+<style>
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* 3 columns */
+    grid-gap: 2px;
+    /* Space between grid items */
+  }
+
+  .gallery-item {
+    position: relative;
+    width: 100%;
+    padding-top: 100%;
+    /* Aspect ratio 1:1 to make it a square */
+    overflow: hidden;
+  }
+
+  .square {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .gallery-item img {
+    position: absolute;
+    /* Ensure the image is positioned within the square */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* Fill the square without distorting the aspect ratio */
+    margin: 0;
+    /* Reset margins if applied globally */
+    padding: 0;
+    transition: opacity 0.3s ease;
+  }
+
+  .gallery-item .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.3s ease;
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .gallery-item:hover .overlay {
+    opacity: 1;
+  }
+
+  .gallery-item:hover img {
+    opacity: 0.8;
+  }
+
+  .image-name {
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 5px;
+    cursor: default;
+  }
+</style>
