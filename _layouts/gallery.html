@@ -15,13 +15,16 @@ layout: default
     {% else %}
     {% assign image_directory = 'assets/images/' %}
     {% endif %}
+
+    {% assign name_dict = site.data.name_dict %}
+
     {% for image in site.static_files %}
-    {% if image.path contains image_directory %}
+    {% if image.path contains image_directory and image.extname == ".webp" %} <!-- Only render .webp files -->
     <div class="gallery-item">
       <div class="square">
         <img src="{{ image.path | relative_url }}" alt="{{ image.name }}">
         <div class="overlay">
-          <span class="image-name">{{ image.name | split: '/' | last | split: '.' | first }}</span>
+          <span class="image-name">{{ name_dict[image.name] | default: image.name }}</span>
         </div>
       </div>
     </div>
@@ -29,6 +32,7 @@ layout: default
     {% endfor %}
   </div>
 </div>
+
 
 <style>
   .gallery {
