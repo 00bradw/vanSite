@@ -3,13 +3,32 @@ import json
 import random
 import string
 from PIL import Image
+import shutil
 
 def generate_random_name(length=8):
     """Generate a random alphanumeric string of fixed length."""
     return ''.join(random.choices(string.ascii_letters + string.digits, k=length))
 
-def convert_to_webp(source_folder, output_folder, max_height=500):
+def clear_output_except_originals(output_folder, originals_folder_name='original'):
+    """Clear all subdirectories and files in the output folder except the originals folder."""
+    for item in os.listdir(output_folder):
+        item_path = os.path.join(output_folder, item)
+        if item != originals_folder_name:
+            if os.path.isdir(item_path):
+                shutil.rmtree(item_path)
+            else:
+                os.remove(item_path)
+
+def convert_to_webp(source_folder, output_folder, originals_folder_name='original', max_height=500):
     name_dict = {}
+
+    # Ensure the originals folder is preserved
+    originals_folder_path = os.path.join(output_folder, originals_folder_name)
+    if not os.path.exists(originals_folder_path):
+        os.makedirs(originals_folder_path)
+
+    # Clear the output folder except for the originals folder
+    clear_output_except_originals(output_folder, originals_folder_name)
 
     # Define path to name_dict.json
     name_dict_path = os.path.join(source_folder, 'adventures', 'name_dict.json')
@@ -38,37 +57,32 @@ def convert_to_webp(source_folder, output_folder, max_height=500):
                     new_width = int(new_height * aspect_ratio)
                     img = img.resize((new_width, new_height), Image.ANTIALIAS)
 
-                # Check if the image is in the "adventures" folder
+                # Determine subdirectory structure and process accordingly
+                relative_path = os.path.relpath(subdir, source_folder)
+                output_dir = os.path.join(output_folder, relative_path)
+                if not os.path.exists(output_dir):
+                    os.makedirs(output_dir)
+
                 if 'adventures' in subdir:
                     # Generate a random name for the output file
                     random_name = generate_random_name() + '.webp'
                     name_dict[random_name] = original_name_dict.get(filename, filename)
-
-                    # Set output directory to adventures' corresponding folder
-                    relative_path = os.path.relpath(subdir, source_folder)
-                    output_dir = os.path.join(output_folder, relative_path)
-                    if not os.path.exists(output_dir):
-                        os.makedirs(output_dir)
-
-                    # Save the image with the random name
+                    output_path = os.path.join(output_dir, random_name)
+                elif 'liveries' in subdir:
+                    # Assign a random name without a dictionary
+                    random_name = generate_random_name() + '.webp'
                     output_path = os.path.join(output_dir, random_name)
                 else:
-                    # Create corresponding subdirectory structure in output_folder
-                    relative_path = os.path.relpath(subdir, source_folder)
-                    output_dir = os.path.join(output_folder, relative_path)
-                    if not os.path.exists(output_dir):
-                        os.makedirs(output_dir)
-
-                    # Save the image with the original name as WebP
+                    # Default handling for other folders
                     output_path = os.path.join(output_dir, filename.replace('.jpeg', '.webp').replace('.jpg', '.webp'))
 
+                # Save the image as WebP
                 img.save(output_path, 'WEBP')
-
                 print(f"Converted {file_path} to {output_path}")
 
-    # Save the new name dictionary for adventures folder
+    # Save the new name dictionary for the adventures folder
     if name_dict:
-        adventures_output_dir = os.path.join(output_folder, 'adventures')
+        adventures_output_dir = "../_data"
         if not os.path.exists(adventures_output_dir):
             os.makedirs(adventures_output_dir)
 
@@ -81,4 +95,4 @@ def convert_to_webp(source_folder, output_folder, max_height=500):
 # Example usage
 source_folder = '../assets/img/original'  # Update this path to your source folder
 output_folder = '../assets/img'  # Update this path to your output folder
-convert_to_webp(source_folder, output_folder)
+convert_to_webp(source_folder, output_folder, originals_folder_name='original')

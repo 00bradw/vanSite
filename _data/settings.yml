@@ -10,6 +10,7 @@ menu:
 - {name: 'Van Tour',  url: 'tour'}
 - {name: 'Van Build',  url: 'build'}
 - {name: 'Adventure Gallery',  url: 'adventure'}
+- {name: 'FTC Collection',  url: 'collection'}
 # - {name: 'Learning Resources', url: 'resources'}
 # - {name: 'Sample Posts',       url: 'sample-posts'}
 # - {name: 'Documentation',      url: 'documentation'}

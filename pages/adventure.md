@@ -2,6 +2,7 @@
 layout: gallery
 title: Adventure Gallery
 image_folder: assets/img/adventures
+show_labels: true
 permalink: /adventure
 ---
 

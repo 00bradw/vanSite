@@ -29,7 +29,9 @@ layout: default
       <a href="{{ image.path | relative_url }}" class="popup-link"> <!-- Added popup-link class here -->
         <img src="{{ image.path | relative_url }}" alt="{{ name_dict[image.name] | default: image.name }}">
         <div class="overlay">
+          {% if page.show_labels %}
           <span class="image-name">{{ name_dict[image.name] | default: image.name }}</span>
+          {% endif %}
         </div>
       </a>
     </div>
