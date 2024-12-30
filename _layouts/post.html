@@ -6,18 +6,18 @@ layout: default
   <h1>
     {{ page.title }}
   </h1>
-  {% if site.hide_post_date != true %}
+  <!-- {% if site.hide_post_date != true %}
     {% include post-date.html %}
   {% endif %}
   {% if page.image %}
     <div class="featured-image">
       <img src="{{ site.github.url }}/assets/img/{{ page.image }}">
     </div>
-  {% endif %}
+  {% endif %} -->
   <article>
     {{ content }}
   </article>
-  {% if site.hide_post_share != true %}
+  <!-- {% if site.hide_post_share != true %}
     {% include post-share.html %}
   {% endif %}
   {% if site.hide_related_posts != true %}
@@ -25,5 +25,5 @@ layout: default
   {% endif %}
   {% if site.data.settings.disqus.comments %}
     {% include disqus.html %}
-  {% endif %}
+  {% endif %} -->
 </div>
