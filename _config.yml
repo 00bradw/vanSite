@@ -10,8 +10,8 @@ permalink:           /:title
 plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
-title:		           "2013 Ford Transit Connect Camper Van"
-description:	       "a van conversion project"
+title:		           "Ford Transit Connect Camper Van"
+description:	       "A van conversion project"
 author:              "Brad Williams"
 
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines

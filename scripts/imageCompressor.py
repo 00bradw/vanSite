@@ -8,7 +8,7 @@ def generate_random_name(length=8):
     """Generate a random alphanumeric string of fixed length."""
     return ''.join(random.choices(string.ascii_letters + string.digits, k=length))
 
-def convert_to_webp(source_folder, output_folder, max_height=800):
+def convert_to_webp(source_folder, output_folder, max_height=500):
     name_dict = {}
 
     # Define path to name_dict.json

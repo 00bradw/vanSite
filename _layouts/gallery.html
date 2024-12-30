@@ -2,6 +2,11 @@
 layout: default
 ---
 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> <!-- Magnific Popup depends on jQuery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+
+
 <div class="page-content">
   <h1>
     {{ page.title }}
@@ -21,17 +26,48 @@ layout: default
     {% for image in site.static_files %}
     {% if image.path contains image_directory and image.extname == ".webp" %} <!-- Only render .webp files -->
     <div class="gallery-item">
-      <div class="square">
-        <img src="{{ image.path | relative_url }}" alt="{{ image.name }}">
+      <a href="{{ image.path | relative_url }}" class="popup-link"> <!-- Added popup-link class here -->
+        <img src="{{ image.path | relative_url }}" alt="{{ name_dict[image.name] | default: image.name }}">
         <div class="overlay">
           <span class="image-name">{{ name_dict[image.name] | default: image.name }}</span>
         </div>
-      </div>
+      </a>
     </div>
     {% endif %}
     {% endfor %}
   </div>
 </div>
+
+<script>
+  $(document).ready(function() {
+    $('.gallery').magnificPopup({
+      delegate: 'a.popup-link', // the selector for gallery item
+      type: 'image',
+      gallery: {
+        enabled: true, // set to true to enable gallery
+        navigateByImgClick: true,
+        preload: [0, 2] // will preload 0 - before current, and 2 after the current image
+      },
+      image: {
+        titleSrc: function(item) {
+          // Use the .image-name text for the title
+          return item.el.find('.image-name').text();
+        }
+      }
+    });
+  });
+</script>
+
+
+<style>
+  /* Styling for the popup title */
+  .mfp-title {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+  }
+</style>
 
 
 <style>
