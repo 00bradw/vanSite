@@ -2,24 +2,23 @@ import os
 import json
 import random
 import string
+import argparse
 from PIL import Image
 import shutil
+from moviepy.editor import VideoFileClip
+from moviepy.video.fx import resize
 
-def generate_random_name(length=8):
-    """Generate a random alphanumeric string of fixed length."""
-    return ''.join(random.choices(string.ascii_letters + string.digits, k=length))
-
-def clear_output_except_originals(output_folder, originals_folder_name='original'):
-    """Clear all subdirectories and files in the output folder except the originals folder."""
+def clear_output_except_originals(output_folder, originals_folder_name='original', specific_folder=None):
+    """Clear all subdirectories and files in the output folder except the originals folder or specific folder."""
     for item in os.listdir(output_folder):
         item_path = os.path.join(output_folder, item)
-        if item != originals_folder_name:
+        if item != originals_folder_name and (specific_folder is None or item == specific_folder):
             if os.path.isdir(item_path):
                 shutil.rmtree(item_path)
             else:
                 os.remove(item_path)
 
-def convert_to_webp(source_folder, output_folder, originals_folder_name='original', max_height=500):
+def convert_to_webp_and_resize_mp4(source_folder, output_folder, originals_folder_name='original', max_height=500, specific_folder=None):
     name_dict = {}
 
     # Ensure the originals folder is preserved
@@ -27,8 +26,11 @@ def convert_to_webp(source_folder, output_folder, originals_folder_name='origina
     if not os.path.exists(originals_folder_path):
         os.makedirs(originals_folder_path)
 
-    # Clear the output folder except for the originals folder
-    clear_output_except_originals(output_folder, originals_folder_name)
+    # Clear the specific output folder or entire folder
+    if specific_folder:
+        clear_output_except_originals(output_folder, originals_folder_name, specific_folder)
+    else:
+        clear_output_except_originals(output_folder, originals_folder_name)
 
     # Define path to name_dict.json
     name_dict_path = os.path.join(source_folder, 'adventures', 'name_dict.json')
@@ -42,13 +44,21 @@ def convert_to_webp(source_folder, output_folder, originals_folder_name='origina
 
     # Walk through the source directory
     for subdir, dirs, files in os.walk(source_folder):
-        for filename in files:
-            if filename.lower().endswith(('.jpg', '.jpeg')):
-                # Construct the full file path
-                file_path = os.path.join(subdir, filename)
+        relative_path = os.path.relpath(subdir, source_folder)
 
-                # Open the image
+        if specific_folder and specific_folder not in relative_path:
+            continue
+
+        for filename in files:
+            file_path = os.path.join(subdir, filename)
+
+            # Process image files (e.g., .jpg, .jpeg, .png, .heic)
+            if filename.lower().endswith(('.jpg', '.jpeg', '.png', '.heic')):
                 img = Image.open(file_path)
+
+                # Convert HEIC to RGB if necessary
+                if img.mode in ("RGBA", "P"):
+                    img = img.convert("RGB")
 
                 # Resize the image if necessary
                 if img.height > max_height:
@@ -58,27 +68,31 @@ def convert_to_webp(source_folder, output_folder, originals_folder_name='origina
                     img = img.resize((new_width, new_height), Image.ANTIALIAS)
 
                 # Determine subdirectory structure and process accordingly
-                relative_path = os.path.relpath(subdir, source_folder)
                 output_dir = os.path.join(output_folder, relative_path)
                 if not os.path.exists(output_dir):
                     os.makedirs(output_dir)
 
-                if 'adventures' in subdir:
-                    # Generate a random name for the output file
-                    random_name = generate_random_name() + '.webp'
-                    name_dict[random_name] = original_name_dict.get(filename, filename)
-                    output_path = os.path.join(output_dir, random_name)
-                elif 'liveries' in subdir:
-                    # Assign a random name without a dictionary
-                    random_name = generate_random_name() + '.webp'
-                    output_path = os.path.join(output_dir, random_name)
-                else:
-                    # Default handling for other folders
-                    output_path = os.path.join(output_dir, filename.replace('.jpeg', '.webp').replace('.jpg', '.webp'))
+                    output_path = os.path.join(output_dir, filename.rsplit('.', 1)[0] + '.webp')
 
                 # Save the image as WebP
                 img.save(output_path, 'WEBP')
                 print(f"Converted {file_path} to {output_path}")
+
+            # Process video files (.mp4)
+            elif filename.lower().endswith('.mp4'):
+                clip = VideoFileClip(file_path)
+                output_dir = os.path.join(output_folder, relative_path)
+                if not os.path.exists(output_dir):
+                    os.makedirs(output_dir)
+
+                # Resize the video to reduce file size
+                resized_clip = resize.resize(clip, height=max_height)
+
+                output_path = os.path.join(output_dir, filename)
+
+                # Save the resized MP4
+                resized_clip.write_videofile(output_path, codec="libx264", audio_codec="aac")
+                print(f"Resized {file_path} to {output_path}")
 
     # Save the new name dictionary for the adventures folder
     if name_dict:
@@ -92,7 +106,11 @@ def convert_to_webp(source_folder, output_folder, originals_folder_name='origina
 
         print(f"Saved name dictionary at {new_name_dict_path}")
 
-# Example usage
-source_folder = '../assets/img/original'  # Update this path to your source folder
-output_folder = '../assets/img'  # Update this path to your output folder
-convert_to_webp(source_folder, output_folder, originals_folder_name='original')
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="Convert images to webp and resize videos.")
+    parser.add_argument('--folder', type=str, help="Specify a subdirectory within the source folder to process.")
+    parser.add_argument('--source', type=str, default='../assets/img/original', help="Source folder path.")
+    parser.add_argument('--output', type=str, default='../assets/img', help="Output folder path.")
+    args = parser.parse_args()
+
+    convert_to_webp_and_resize_mp4(args.source, args.output, originals_folder_name='original', specific_folder=args.folder)
