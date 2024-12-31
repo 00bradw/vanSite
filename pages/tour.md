@@ -26,8 +26,8 @@ Basic, with lever windows, etc. No mods
 This van secretly has a great sound system. There are aftermarket Alpine speakers installed in the doors and a Kickr subwoofer bolted down below the drivers seat. Keeping in line with security concerns, the speakers are completely hidden from view behind the cheap stock plastic covers on the door, and the subwoofer is hidden below the seat, and cannot be removed without un-bolting the seat from the car. The sound system is controlled with a removable alpine stereo tuner which can connect to devices via bluetooth.
 
 <figure style="text-align: center;">
-  <video controls autoplay muted loop width="500">
-    <source src="..\assets\img\tour\audio.mp4" type="video/mp4">
+  <video controls autoplay muted loop style="max-width: 100%; height: auto;">
+    <source src="../assets/img/tour/audio.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
   <figcaption>Description for the video</figcaption>
@@ -61,8 +61,8 @@ The kitchen utilities consist of a sink with a deep basin, and another basin to 
 
 
 <figure style="text-align: center;">
-  <video controls width="500">
-    <source src="..\assets\img\tour\burner.mp4" type="video/mp4">
+  <video controls autoplay muted loop style="max-width: 100%; height: auto;">
+    <source src="../assets/img/tour/burner.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
   <figcaption>Description for the video</figcaption>
