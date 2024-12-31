@@ -4,7 +4,7 @@ title: Tour
 permalink: /tour
 ---
 
-This is a tour of the design and features my converted camper van:
+This is a tour of the design and features of the van:
 
 ## Van
 
@@ -18,8 +18,14 @@ The trade-off with the steel bulkhead is that you lose the ability to jump from 
 
 For privacy, a retractable blackout curtain is installed in between the cabin and living area.
 
-## Cabin
-Basic, with lever windows, etc. No mods
+## Cockpit
+
+The Ford Transit Connect comes in XL and XLT trim packages. This van is an XL; meaning it has crank windows, no electronic locks or seats, and basic entertainment system. However, I have upgraded the entertainment console to a premium stereo system.
+
+<figure style="text-align: center;">
+   <img src="..\assets\img\tour\Listing\PXL_20240104_014309416.webp" >
+  <figcaption>Adhering wooden floor substructure to the metal ridges of the van's body.</figcaption>
+</figure>
 
 ## Audio Mods
 

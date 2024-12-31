@@ -72,7 +72,7 @@ def convert_to_webp_and_resize_mp4(source_folder, output_folder, originals_folde
                 if not os.path.exists(output_dir):
                     os.makedirs(output_dir)
 
-                    output_path = os.path.join(output_dir, filename.rsplit('.', 1)[0] + '.webp')
+                output_path = os.path.join(output_dir, filename.rsplit('.', 1)[0] + '.webp')
 
                 # Save the image as WebP
                 img.save(output_path, 'WEBP')
