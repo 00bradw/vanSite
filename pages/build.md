@@ -6,7 +6,7 @@ permalink: /build
 
 A journal of  van conversion.
 
-## Initial Tear Down. 
+## Initial Tear Down
 In preparation for the conversion, the felt ceiling liner, vinyl flooring mat, utility shelving, and door paneling were stripped down
 
 <figure style="text-align: center;">
@@ -14,7 +14,7 @@ In preparation for the conversion, the felt ceiling liner, vinyl flooring mat, u
   <figcaption>View of the original interior as purchased, prior to conversion.</figcaption>
 </figure>
 
-## Substructure and insulation. 
+## Substructure and Insulation
 
 <figure style="text-align: center;">
   <img src="../assets\img\build\20180106_170030.webp" >
@@ -85,19 +85,6 @@ In preparation for the conversion, the felt ceiling liner, vinyl flooring mat, u
 </figure>
 
 <figure style="text-align: center;">
-  <img src="../assets/img/build/PXL_20210714_034443970.webp" >
-  <figcaption>Description for PXL_20210714_034443970.webp</figcaption>
-</figure>
-
-<figure style="text-align: center;">
-  <img src="../assets/img/build/PXL_20210717_032310120.webp" >
-  <figcaption>Description for PXL_20210717_032310120.webp</figcaption>
-</figure>
-
-
-
-
-<figure style="text-align: center;">
   <img src="../assets/img/build/PXL_20210718_212413192.webp" >
   <figcaption>Description for PXL_20210718_212413192.webp</figcaption>
 </figure>
@@ -115,7 +102,7 @@ In preparation for the conversion, the felt ceiling liner, vinyl flooring mat, u
 </figure>
 
 
-## Subflooring Installation
+## Flooring
 
 
 <figure style="text-align: center;">
@@ -156,7 +143,7 @@ In preparation for the conversion, the felt ceiling liner, vinyl flooring mat, u
   <figcaption>Description for PXL_20210717_044959975.webp</figcaption>
 </figure>
 
-## Roof Construction. 
+## Roof Construction
 
 
 <figure style="text-align: center;">
@@ -305,7 +292,7 @@ In preparation for the conversion, the felt ceiling liner, vinyl flooring mat, u
   <figcaption>Description for PXL_20210729_022753330.webp</figcaption>
 </figure>
 
-## Kitchen Build out
+## Kitchen Build
 
 <figure style="text-align: center;">
   <img src="../assets/img/build/PXL_20210719_021738484.webp" >
