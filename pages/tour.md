@@ -18,9 +18,12 @@ The trade-off with the steel bulkhead is that you lose the ability to jump from 
 
 For privacy, a retracable blackout curtain is installed inbetween the cabin and living area.
 
+## Cabin
+Basic, with lever windows, etc. No mods
+
 ## Audio Mods
 
-This van secretly has a great sound system. There are aftermarket Alpine speakers installed in the doors and a Kickr subwoofer bolted down below the drivers seat. Keeping in line with security concerns, the speakers are concealed behind the cheap stock plastic covers on the door, and the subwoofer is hidden below the seat, and cannot be removed without un-bolting the seat from the car. The sound system is controlled with a removable alpine stereo deck.
+This van secretly has a great sound system. There are aftermarket Alpine speakers installed in the doors and a Kickr subwoofer bolted down below the drivers seat. Keeping in line with security concerns, the speakers are completely hidden from view behind the cheap stock plastic covers on the door, and the subwoofer is hidden below the seat, and cannot be removed without un-bolting the seat from the car. The sound system is controlled with a removable alpine stereo tuner which can connect to devices via bluetooth.
 
 ## Living
 
