@@ -18,7 +18,7 @@ def clear_output_except_originals(output_folder, originals_folder_name='original
             else:
                 os.remove(item_path)
 
-def convert_to_webp_and_resize_mp4(source_folder, output_folder, originals_folder_name='original', max_height=500, specific_folder=None):
+def convert_to_webp_and_resize_mp4(source_folder, output_folder, originals_folder_name='original', max_height=800, specific_folder=None):
     name_dict = {}
 
     # Ensure the originals folder is preserved

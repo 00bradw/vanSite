@@ -4,22 +4,24 @@ title: Tour
 permalink: /tour
 ---
 
-This is a tour of the design and features of the van:
 
-## Van
 
-I chose the 2013 Ford Transit Connect because of its efficient size. It's a a 94" long van, which is shorter than many 4 door sedans, but the cargo bay is over 6' long in the back, allowing someone like me to sleep comfortably. I can drive and park this van anywhere a car can go, camp in the back, while getting up to 28mpg on the highway. As someone who wanted a daily driver + adventure vehicle in one, this van is the perfect fit.
+## Size and Dimensions
+
+I chose the 2013 Ford Transit Connect (FTC) because of its efficient size and convenience. It's a 174" long van, which is shorter than many 4 door sedans (a 2013 Corolla is 179" long), but the cargo bay is 81" (6'-9") long in the back, allowing me at 5'-11", to sleep comfortably. Boxy in form, the 2010-2013 1st generation FTC was sold as a LWB "high roof" version of its original European build, and has an interior cargo height of 54" (4'-6"), which is enough for sitting up on a seat without hitting my head on the ceiling. The interior height was reduced to 50" (4'2") in the "sleeker" 2014-2023 2nd generation FTC, which would have eliminated the ability to sit up comfortably.
+
+I can drive and park this van anywhere a car can go, comfortably hangout and camp in the back, while achieving 21/27 city/hwy MPG. As someone who wanted a compact daily driver and adventure vehicle in one, this van is the perfect fit, down to the inches.
 
 ## Security
 
-I bought the model with no glass windows on the side nor rear, which is less common for these vans. This was an important requirement because when I bought it, and for much of its life, I was in California, which means car break-ins were inevitable. For an adventure van which could hold many valuable pieces of equipment at any given time, I wanted to minimize the ability to steal items in the back as much as possible. This lack of glass, combined with the steel bulkhead behind the seats separating the cockpit with the rear cabin, makes stealing items in the back was made more difficult. The van has been broken in to a few times (through the front windows), and in all instances, the thieves never got through the steel bulkhead into the back.
+This FTC model does not have side or rear door glass. This was an important requirement because when I bought it, and for much of its life, I was in San Francisco Bay Area, which means car break-ins were inevitable. For an adventure van which could hold many valuable pieces of adventure equipment at any given time, I wanted to minimize the ability to steal items in the back as much as possible. This lack of glass, combined with the steel bulkhead behind the seats separating the cockpit with the rear cabin, makes stealing items in the back more difficult. The van has been broken in to a few times (through the front windows), and in all instances, the thieves did not get through the steel bulkhead into the back.
 
 <figure style="text-align: center;">
    <img src="..\assets\img\tour\PXL_20241231_230831630.webp" >
   <figcaption>Adhering wooden floor substructure to the metal ridges of the van's body.</figcaption>
 </figure>
 
-The trade-off with the steel bulkhead is that you lose the ability to jump from the cabin to the camper without exiting the van. This is a great feature for camping in bad weather or trying to be stealth. Therefore, I made the bulkhead easily removable and storable, to keep the van open when camping, and secure in risky settings. The bulkhead can be opened and stored in the back in a matter of minutes. This is great for longer trips which include the occasional risky area. For most short trips to remote locations, I keep the bulkhead at home to keep space available.
+The trade-off with the steel bulkhead is that you lose the ability to jump from the cabin to the camper without exiting the van. This is a great feature for camping in bad weather or trying to be stealth. Therefore, I made the bulkhead easily removable and storable, to keep the van open when camping, while retaining the option to be secure in risky settings. The bulkhead can be opened and stored on the ceiling in a matter of minutes when removed from the back cabin. Converting the bulkhead back and forth is useful for longer trips which include the occasional risky area. However for most short trips to remote locations, I keep the bulkhead at home to maximize available space. The bulkhead has also been modified to allow for access to the overhead storage when it's installed. 
 
 <figure style="text-align: center;">
   <video controls autoplay muted loop style="max-width: 100%; height: auto;">
@@ -41,7 +43,7 @@ For privacy, a retractable blackout curtain is installed in between the cabin an
 
 ## Cockpit
 
-The Ford Transit Connect comes in XL and XLT trim packages. This van is an XL; meaning it has crank windows, no electronic locks or seats, and basic entertainment system. However, I have upgraded the entertainment console to a premium stereo system.
+The FTC comes in XL and XLT trim packages. This van is an XL; meaning it has crank windows, no electronic locks or seat controls, and a basic stock entertainment system. However, I have upgraded the entertainment dashboard to a premium stereo system.
 
 <figure style="text-align: center;">
    <img src="..\assets\img\tour\Listing\PXL_20240104_014309416.webp" >
@@ -65,7 +67,7 @@ Above the seats, I have extended the overhead shelf to be accessible from the li
 
 ## Audio Mods
 
-This van secretly has a great sound system. There are aftermarket Alpine speakers installed in the doors and a Kickr subwoofer bolted down below the drivers seat. Keeping in line with security concerns, the speakers are completely hidden from view behind the cheap stock plastic covers on the door, and the subwoofer is hidden below the seat, and cannot be removed without un-bolting the seat from the car. The sound system is controlled with a removable alpine stereo tuner which can connect to devices via bluetooth.
+This van secretly has a great sound system. There are aftermarket Alpine speakers installed in the doors and a KICKER subwoofer bolted down below the drivers seat. Keeping in line with security concerns, the speakers are completely hidden from view behind the cheap stock plastic covers on the door, and the subwoofer is hidden below the seat and cannot be removed without un-bolting the seat from the car. The sound system is controlled with a removable alpine stereo tuner which can connect to devices via bluetooth.
 
 <figure style="text-align: center;">
   <video controls autoplay muted loop style="max-width: 100%; height: auto;">
@@ -110,7 +112,7 @@ The squares can be easily removed to access the large storage area below the ben
   <figcaption>Adhering wooden floor substructure to the metal ridges of the van's body.</figcaption>
 </figure>
 
-The concept of this van is to have no permanent mattress or cushions for sleeping or sitting. Mattresses and cushions are very bulky, hard to store when not being slept on, and are magnets for filth and stains. Rather, this van expects that you will use standard sleeping mats or inflatable mattresses which are easy to store and keep the van spatious when not sleeping. As such, the dimensions of the sleeping configurations are designed to accomodate typical sizes for these products.
+The concept of this van is to have no permanent mattress or cushions for sleeping or sitting. Mattresses and cushions are very bulky, hard to store when not being slept on, and are magnets for filth and stains. Rather, this van expects that you will use standard sized sleeping mats or inflatable mattresses which are easy to store and keep the van spatious when not sleeping. This makes the van versatile for different user's preferences, and is a great feature for renting out or having the van borrowed. Different campers can bring whichever sleeping mattresses/ cushions they prefer, and there is no burden of washing or cleaning upholstery or fabrics. 
 
 ### Sleeping configuration 1: "Quick Rest"
 
@@ -131,7 +133,7 @@ The bench is 22" wide, and will comfotably support most off-the-shelf sleeping m
 
 ### Sleeping configuration 2: "Comfortable Twin"
 
-The squares can unfold to become flat and create a sleeping platform that spans from the ege of the kitchen to the back of the bench. This platform is 52" wide, which is the standard "twin" bed width. As such, this platform will comfortably hold an off-the-shelf twin mattress of your liking. While you could put a foam mattress here, for the reasons mentioned above, the simplest configuration is inflating a mattress when you're ready to sleep. This configuration is roomy and comfortable for one camper, and can snugly accomodate two campers.
+The squares can unfold to become flat and create a sleeping platform that spans from the ege of the kitchen to the back of the bench. This platform is 52" wide and 72" long, which are the standard "twin" bed dimensions. As such, this platform will comfortably hold an off-the-shelf twin mattress of your liking. While you could put a foam mattress here, for the reasons mentioned above, the simplest configuration is inflating a mattress when you're ready to sleep. This configuration is roomy and comfortable for one camper, and can snugly accommodate two campers.
 
 <figure style="text-align: center;">
    <img src="..\assets\img\tour\PXL_20241231_210236446.MP.webp" >
@@ -148,7 +150,7 @@ The squares can unfold to become flat and create a sleeping platform that spans 
 
 ## Sleeping configuration 3: "Queen Camping"
 
-Similar to the twin configuration, the platform can span flush with the top of the kitchen counter to become a 60" wide (queen sized) sleeping platform. The kitchen counter is specifically designed with this configuration in mind; the sink faucet is mounted in back of the counter and can fold away, and the sink and burned basin have covers which are flush with the rest of the counter top. In this configuration, campers can use most off-the-shelf queen sized sleeping mats, or two single mats joined together.
+Similar to the twin configuration, the platform can span flush with the top of the kitchen counter to become a 60" wide (queen sized) sleeping platform. The kitchen counter is specifically designed with this configuration in mind; the sink faucet is mounted in back of the counter and can fold away, and the sink and burned basin have covers which are flush with the rest of the counter top. In this configuration, campers can use most off-the-shelf queen sized sleeping mats, or two twin mats in tandem.
 
 <figure style="text-align: center;">
    <img src="..\assets\img\tour\PXL_20241231_214501615.webp" >
@@ -165,7 +167,7 @@ Similar to the twin configuration, the platform can span flush with the top of t
 
 ## Kitchen
 
-The kitchen utilities consist of a sink with a deep basin, and another basin to hold a standard propane camping stove. Below the burner is a refridgerator. The sink is supplied with a small pump which draws fresh water from a 5 gallon jug. This jug is sunken into the floor behind the driver seat, and is configured to be easily removed for refilling stations. The jug connects into the plumbing with a quick release mechanism. Below the sink is a grey water jug which can also be easily removed for dumping. The kitchen has an easily removable panel to access the grey water and under-sink area. Below the kitchen counter area are two large storage drawers on slow-close slides, and a storage cabinet.
+The kitchen counter includes a flexible articulating stainless steel sink faucet, a soap dispenser, a stainless steel deep sink basin with a cutting board lid, and another stainless steel basin sized to hold a standard single burner propane camping stove. Below the burner basin is a mini-fridge. The under-sink area is accessible via a removable panel. Under the sink is the gray water jug, which the sink drains to. The jug can be easily removed for dumping. The kitchen has two large drawers which are both mounted on heavy duty slow-close drawer slides. Towards the rear of the kitchen is a large storage cabinet accessible via a small door on the inside of the van, or a larger door from the back when the van doors are open. The doors and drawers are latched when shut to prevent flying open when the van is in motion. 
 
 <figure style="text-align: center;">
   <video controls autoplay muted loop style="max-width: 100%; height: auto;">
@@ -175,7 +177,7 @@ The kitchen utilities consist of a sink with a deep basin, and another basin to 
   <figcaption>Description for the video</figcaption>
 </figure>
 
-The kitchen sink and burner are located next to the door, so campers can "cook with a view," have ventilation, and also cook from the outside if desired. The counter remains at a convenient height when standing on the outside, and the sink faucet is flexible to allow for outdoor use. Additionally, when the sink faucet is articulate towards the outside, it makes for a great shower head!
+The kitchen sink and burner are located next to the door, so campers can "cook with a view," have ventilation, and also cook from the outside if desired. The counter remains at a convenient height when standing on the outside, and the articulating sink faucet is flexible to allow for outdoor use. Additionally, the sink faucet can be used as a shower head when oriented towards the outside of the van.
 
 <figure style="text-align: center;">
   <video controls autoplay muted loop style="max-width: 100%; height: auto;">
