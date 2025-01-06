@@ -15,7 +15,7 @@ In preparation for the conversion, the felt ceiling liner, vinyl flooring mat, u
 
 ## Substructure and Insulation
 
-3/4" x 3/4" Wooden "beams" were epoxied down to the aluminum ridges on the van chassis cargo floor as the sub structure. In between the beams is a continuous infill of rigid insulation, with spray foam insulation in the seams and gaps. The height of the metal chassis ridges allowed the substructure and insulation to sit about and inch above the van's metal chassis floor, leaving a significant "air gap" which is a crucial element for a well insulated space.
+3/4" x 3/4" Wooden "beams" were epoxied down to the aluminum ridges on the van's cargo floor as the sub structure. In between the beams is a continuous infill of rigid insulation, with spray foam insulation in the seams and gaps. The height of the metal floor ridges allowed the substructure and insulation to sit about and inch above the van's metal floor, leaving a significant "air gap" which is a crucial element for a well insulated space. Additionally, there is a foil lining on the side of the insulation facing the floor to help deflect radiant heat.
 
 <figure style="text-align: center; margin-bottom: 20px;">
   <img src="../assets\img\build\20180106_170030.webp" >
@@ -25,12 +25,12 @@ In preparation for the conversion, the felt ceiling liner, vinyl flooring mat, u
 
 <figure style="text-align: center; margin-bottom: 20px;">
   <img src="../assets\img\build\20180114_205032.webp" >
-  <figcaption style="color: grey; font-style: italic;" >Adhering wooden floor substructure to the metal ridges of the van's body.</figcaption>
+  <figcaption style="color: grey; font-style: italic;" >Fitting in strips of insulation.</figcaption>
 </figure>
 
 <figure style="text-align: center; margin-bottom: 20px;">
   <img src="../assets/img/build/20180117_205811.webp" >
-  <figcaption style="color: grey; font-style: italic;" >Description for 20180117_205811.webp</figcaption>
+  <figcaption style="color: grey; font-style: italic;" >Filling in gaps with expanding foam insulation.</figcaption>
 </figure>
 
 Similar to the floor, a layer of rigid foam insulation is adhered to the metal corrugated structural ridges of the chassis ceiling. By laminating the underside of these ridges, a significant air gap was left in-between the underside of the van's metal roof and the top of the insulation layer, maximizing the performance of the insulation layer. Additionally, the rigid foam has a thin layer of reflective foil on its top side, which helps mitigate the high amount of radiant heat coming from the sun on the roof. 
