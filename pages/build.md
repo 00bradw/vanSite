@@ -4,7 +4,6 @@ title: Van Build
 permalink: /build
 ---
 
-A journal of  van conversion.
 
 ## Initial Tear Down
 In preparation for the conversion, the felt ceiling liner, vinyl flooring mat, utility shelving, and door paneling were stripped down
@@ -135,7 +134,7 @@ On top of the substructure is a continuous plywood flooring jigsawed to fit the 
 
 <figure style="text-align: center; margin-bottom: 20px;">
   <img src="../assets/img/build/PXL_20210717_043914270.webp" >
-  <figcaption style="color: grey; font-style: italic;" >Creating a template on the uncut roll vinyl flooring.</figcaption>
+  <figcaption style="color: grey; font-style: italic;" >Creating a template on the uncut roll of vinyl flooring.</figcaption>
 </figure>
 
 <figure style="text-align: center; margin-bottom: 20px;">
@@ -179,7 +178,7 @@ A large hole was cut out of the back of the roof to house the fan. The fan is dr
 
 <figure style="text-align: center; margin-bottom: 20px;">
   <img src="../assets/img/build/20180218_140156.webp" >
-  <figcaption style="color: grey; font-style: italic;" >Sealing the fan assembly with weatherproofing caulk.</figcaption>
+  <figcaption style="color: grey; font-style: italic;" >Sealing the fan assembly with weatherproofing sealant.</figcaption>
 </figure>
 
 <figure style="text-align: center; margin-bottom: 20px;">
@@ -226,178 +225,120 @@ A large hole was cut out of the back of the roof to house the fan. The fan is dr
 
 ## Interior Framing
 
+The furniture is largely built with standard 2x4's fastened to each other with strong-tie connectors and structural screws. The framing was designed in a digital model down to the 1/4", ensuring the tolerances for things like the modular squares, and kitchen appliances were accounted for.
 
 <figure style="text-align: center; margin-bottom: 20px;">
   <img src="../assets/img/build/PXL_20210630_034630090.webp" >
-  <figcaption style="color: grey; font-style: italic;" >Description for PXL_20210630_034630090.webp</figcaption>
-</figure>
-
-
-<figure style="text-align: center; margin-bottom: 20px;">
   <img src="../assets/img/build/PXL_20210704_031708107.webp" >
-  <figcaption style="color: grey; font-style: italic;" >Description for PXL_20210704_031708107.webp</figcaption>
+  <figcaption style="color: grey; font-style: italic;" >Framing the bench with 2x4 and strong-tie connections.</figcaption>
 </figure>
-
 
 <figure style="text-align: center; margin-bottom: 20px;">
   <img src="../assets/img/build/PXL_20210717_225829792.webp" >
-  <figcaption style="color: grey; font-style: italic;" >Description for PXL_20210717_225829792.webp</figcaption>
-</figure>
-
-
-<figure style="text-align: center; margin-bottom: 20px;">
   <img src="../assets/img/build/PXL_20210718_234946426.webp" >
-  <figcaption style="color: grey; font-style: italic;" >Description for PXL_20210718_234946426.webp</figcaption>
+  <figcaption style="color: grey; font-style: italic;" >3D digital model of the framing design for the bench and kitchen.</figcaption>
 </figure>
 
 
 <figure style="text-align: center; margin-bottom: 20px;">
   <img src="../assets/img/build/PXL_20210719_005003818.webp" >
-  <figcaption style="color: grey; font-style: italic;" >Description for PXL_20210719_005003818.webp</figcaption>
-</figure>
-
-<figure style="text-align: center; margin-bottom: 20px;">
   <img src="../assets/img/build/PXL_20210719_043404538.NIGHT.webp" >
-  <figcaption style="color: grey; font-style: italic;" >Description for PXL_20210719_043404538.NIGHT.webp</figcaption>
+  <figcaption style="color: grey; font-style: italic;" >Finished framing prior to paneling and kitchen carpentry.</figcaption>
 </figure>
 
-<figure style="text-align: center; margin-bottom: 20px;">
-  <img src="../assets/img/build/PXL_20210729_022753330.webp" >
-  <figcaption style="color: grey; font-style: italic;" >Description for PXL_20210729_022753330.webp</figcaption>
-</figure>
 
 ## Kitchen Build
 
+The kitchen has a large butcher block counter top installed, to simultaneously serve as a food-safe surface for cooking, and as a sturdy platform extension for the "Queen Camping" configuration. The drawers and cabinetry are made of plywood. On the side of the kitchen facing the bench, are 2x4 ledges running the length of the cabin, structurally fastened to the framing, for the sleeping platforms to sit on.
+
 <figure style="text-align: center; margin-bottom: 20px;">
   <img src="../assets/img/build/PXL_20210719_021738484.webp" >
-  <figcaption style="color: grey; font-style: italic;" >Description for PXL_20210719_021738484.webp</figcaption>
+  <figcaption style="color: grey; font-style: italic;" >Installing the butcher block counter top.</figcaption>
 </figure>
 
 
 <figure style="text-align: center; margin-bottom: 20px;">
   <img src="../assets/img/build/PXL_20210719_045438304.webp" >
-  <figcaption style="color: grey; font-style: italic;" >Description for PXL_20210719_045438304.webp</figcaption>
-</figure>
-
-
-<figure style="text-align: center; margin-bottom: 20px;">
   <img src="../assets/img/build/PXL_20210724_175851172.webp" >
-  <figcaption style="color: grey; font-style: italic;" >Description for PXL_20210724_175851172.webp</figcaption>
+  <figcaption style="color: grey; font-style: italic;" >Cutting holes in the countertop for the sink and burner basin to sit in. Fitting for the grey water tank and mini-fridge also shown.</figcaption>
 </figure>
+
 
 
 <figure style="text-align: center; margin-bottom: 20px;">
   <img src="../assets/img/build/PXL_20210727_225931774.webp" >
-  <figcaption style="color: grey; font-style: italic;" >Description for PXL_20210727_225931774.webp</figcaption>
-</figure>
-
-
-<figure style="text-align: center; margin-bottom: 20px;">
   <img src="../assets/img/build/PXL_20210728_044851098.NIGHT.webp" >
-  <figcaption style="color: grey; font-style: italic;" >Description for PXL_20210728_044851098.NIGHT.webp</figcaption>
-</figure>
-
-
-<figure style="text-align: center; margin-bottom: 20px;">
   <img src="../assets/img/build/PXL_20210729_185202992.webp" >
-  <figcaption style="color: grey; font-style: italic;" >Description for PXL_20210729_185202992.webp</figcaption>
-</figure>
-
-
-<figure style="text-align: center; margin-bottom: 20px;">
-  <img src="../assets/img/build/PXL_20210729_214729612.webp" >
-  <figcaption style="color: grey; font-style: italic;" >Description for PXL_20210729_214729612.webp</figcaption>
+  <figcaption style="color: grey; font-style: italic;" >Fitting and installing the sink faucet and sink pump, connected with food-safe pvc tubing.</figcaption>
 </figure>
 
 
 <figure style="text-align: center; margin-bottom: 20px;">
   <img src="../assets/img/build/PXL_20210730_023737343.webp" >
-  <figcaption style="color: grey; font-style: italic;" >Description for PXL_20210730_023737343.webp</figcaption>
+  <figcaption style="color: grey; font-style: italic;" >Mounting the sink faucet on a steel angle bracket behind and below the counter, to keep it out of the way for the "Queen Camping" mode.</figcaption>
 </figure>
 
 ## Interior Paneling
 
+On top of the interior van surface, there are a series of thin wood battens which serve as the blocking for interior paneling. The ship-lap siding is screwed into these battens and custom cut to fit the contours of the van. The ceiling is a thin sheet of plywood attached to the van with strong-tie connections.
+
 
 <figure style="text-align: center; margin-bottom: 20px;">
   <img src="../assets/img/build/PXL_20210803_010955173.webp" >
-  <figcaption style="color: grey; font-style: italic;" >Description for PXL_20210803_010955173.webp</figcaption>
-</figure>
-
-
-<figure style="text-align: center; margin-bottom: 20px;">
   <img src="../assets/img/build/PXL_20210803_012702892.webp" >
-  <figcaption style="color: grey; font-style: italic;" >Description for PXL_20210803_012702892.webp</figcaption>
-</figure>
-
-
-<figure style="text-align: center; margin-bottom: 20px;">
   <img src="../assets/img/build/PXL_20210803_014316616.webp" >
-  <figcaption style="color: grey; font-style: italic;" >Description for PXL_20210803_014316616.webp</figcaption>
+  <figcaption style="color: grey; font-style: italic;" >Ship-lap siding fastened to wooden battens for blocking.</figcaption>
 </figure>
 
-
-<figure style="text-align: center; margin-bottom: 20px;">
-  <img src="../assets/img/build/PXL_20210803_031009822.webp" >
-  <figcaption style="color: grey; font-style: italic;" >Description for PXL_20210803_031009822.webp</figcaption>
-</figure>
-
-
-
-
-<figure style="text-align: center; margin-bottom: 20px;">
-  <img src="../assets/img/build/PXL_20210805_022733652.webp" >
-  <figcaption style="color: grey; font-style: italic;" >Description for PXL_20210805_022733652.webp</figcaption>
-</figure>
 
 
 <figure style="text-align: center; margin-bottom: 20px;">
   <img src="../assets/img/build/PXL_20210805_233516848.webp" >
-  <figcaption style="color: grey; font-style: italic;" >Description for PXL_20210805_233516848.webp</figcaption>
+  <figcaption style="color: grey; font-style: italic;" >Paneling progress, showings layers of wall construction.</figcaption>
 </figure>
 
 
 <figure style="text-align: center; margin-bottom: 20px;">
   <img src="../assets/img/build/PXL_20210806_013825387.webp" >
-  <figcaption style="color: grey; font-style: italic;" >Description for PXL_20210806_013825387.webp</figcaption>
+  <figcaption style="color: grey; font-style: italic;" >Cutting the ceiling finish to fit fan, lighting, and van contouring.</figcaption>
 </figure>
 
 ## Electrical Wiring
 
-<figure style="text-align: center; margin-bottom: 20px;">
-  <img src="../assets/img/build/PXL_20210803_164416588.webp" >
-  <figcaption style="color: grey; font-style: italic;" >Description for PXL_20210803_164416588.webp</figcaption>
-</figure>
 
+Prior to the final ceiling installation, the solar wiring from the roof and recessed puck lights were configured, which were later recessed and concealed within the ceiling.
 
 <figure style="text-align: center; margin-bottom: 20px;">
   <img src="../assets/img/build/PXL_20210803_172936181.webp" >
-  <figcaption style="color: grey; font-style: italic;" >Description for PXL_20210803_172936181.webp</figcaption>
+  <figcaption style="color: grey; font-style: italic;" >Designing the electrical system.</figcaption>
 </figure>
 
+<figure style="text-align: center; margin-bottom: 20px;">
+  <img src="../assets/img/build/PXL_20210803_164416588.webp" >
+  <figcaption style="color: grey; font-style: italic;" >Wiring up the CTEK battery charger with solar and alternator power.</figcaption>
+</figure>
 
 <figure style="text-align: center; margin-bottom: 20px;">
   <img src="../assets/img/build/PXL_20210806_013900020.webp" >
-  <figcaption style="color: grey; font-style: italic;" >Description for PXL_20210806_013900020.webp</figcaption>
+  <figcaption style="color: grey; font-style: italic;" >Roughing in the lighting and trim for the fan in anticipation of the ceiling panel.</figcaption>
 </figure>
 
 <figure style="text-align: center; margin-bottom: 20px;">
   <img src="../assets/img/build/PXL_20210808_032428477.webp" >
-  <figcaption style="color: grey; font-style: italic;" >Description for PXL_20210808_032428477.webp</figcaption>
-</figure>
-
-<figure style="text-align: center; margin-bottom: 20px;">
   <img src="../assets/img/build/PXL_20210808_035431007.NIGHT.webp" >
-  <figcaption style="color: grey; font-style: italic;" >Description for PXL_20210808_035431007.NIGHT.webp</figcaption>
+  <figcaption style="color: grey; font-style: italic;" >Testing the finished lighting and electrical system.</figcaption>
 </figure>
 
 ## Kitchen Carpentry
 
+The plywood drawers are built with plywood and installed with slow-close sliders in the largest part of the kitchen framing. As a finishing touch, the butcher block counter top was extended with a custom fitting for the sink and soap dispenser, to take advantage of every 1/4" against the sliding door
+
 <figure style="text-align: center; margin-bottom: 20px;">
   <img src="../assets/img/build/PXL_20210808_023744442.webp" >
-  <figcaption style="color: grey; font-style: italic;" >Description for PXL_20210808_023744442.webp</figcaption>
+  <figcaption style="color: grey; font-style: italic;" >Building the kitchen drawers.</figcaption>
 </figure>
 
 <figure style="text-align: center; margin-bottom: 20px;">
   <img src="../assets/img/build/PXL_20210809_033936335.webp" >
-  <figcaption style="color: grey; font-style: italic;" >Description for PXL_20210809_033936335.webp</figcaption>
+  <figcaption style="color: grey; font-style: italic;" >Final fitting of kitchen sink and soap dispenser.</figcaption>
 </figure>

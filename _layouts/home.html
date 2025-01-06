@@ -3,12 +3,47 @@ layout: default
 title: Home
 ---
 
-{% for post in paginator.posts %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2013 Ford Transit Connect Camper Van</title>
+  <style>
+    body {
+      text-align: center;
+      font-family: Arial, sans-serif;
+    }
+    h1 {
+
+      margin: 20px 0;
+    }
+    figure {
+      margin: 0;
+      text-align: center;
+    }
+    figure img {
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+  <h1>2013 Ford Transit Connect camper van conversion</h1>
+  <figure>
+    <img src="../assets/img/adventures/fbM3aK6b.webp" alt="Adventure Image">
+  </figure>
+</body>
+</html>
+
+
+
+<!-- {% for post in paginator.posts %}
   {% include featured-post.html %}
-{% endfor %}
+{% endfor %} -->
 
 <!-- Pagination links -->
-<div class="pagination">
+<!-- <div class="pagination">
   {% if paginator.next_page %}
     <a class="pagination-button pagination-active next" href="{{ site.github.url }}{{ paginator.next_page_path }}">{{ site.data.settings.pagination.previous_page }}</a>
   {% else %}
@@ -19,4 +54,4 @@ title: Home
   {% else %}
     <span class="pagination-button">{{ site.data.settings.pagination.next_page }}</span>
   {% endif %}
-</div>
+</div> -->
