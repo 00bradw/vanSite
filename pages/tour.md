@@ -121,7 +121,7 @@ The living configurations are based around two module squares for sitting or sle
 </figure>
 
 <figure style="text-align: center; margin-bottom: 20px;">
-   <img src="..\assets\img\tour\ViewCapture20250105_162253_ANNO.webp" >
+   <img src="..\assets\img\tour\ViewCapture20250105_163039_ANNO.webp" >
   <figcaption style="color: grey; font-style: italic;" >Both modular squares rotated and spanning into a twin bed configuration.</figcaption>
 </figure>
 
