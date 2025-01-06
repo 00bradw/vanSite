@@ -56,7 +56,7 @@ For privacy, a retractable blackout curtain is installed in between the cabin an
     <source src="../assets/img/tour/curtain.mp4" type="video/mp4">
     
   </video>
-  <figcaption style="color: grey; font-style: italic;" >Retractable blackout curtain for privacy and sleeping and privacy.</figcaption>
+  <figcaption style="color: grey; font-style: italic;" >Retractable blackout curtain for privacy and sleeping.</figcaption>
 </figure>
 
 ## Cockpit
