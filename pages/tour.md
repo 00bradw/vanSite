@@ -12,12 +12,15 @@ I chose the 2013 Ford Transit Connect (FTC) because of its efficient size and co
 
 I can drive and park this van anywhere a car can go, comfortably hangout and camp in the back, while achieving 21/27 city/hwy MPG. As someone who wanted a compact daily driver and adventure vehicle in one, this van is the perfect fit, down to the inches.
 
-
-
-
 <figure style="text-align: center; margin-bottom: 20px;">
    <img src="..\assets\img\tour\diagrams\Bmw E39 Touring.webp" >
   <figcaption style="color: grey; font-style: italic;" >Dimensions of the 1st generation high roof FTC.</figcaption>
+</figure>
+
+
+<figure style="text-align: center; margin-bottom: 20px;">
+   <img src="..\assets\img\tour\20180220_223016.webp" >
+  <figcaption style="color: grey; font-style: italic;" >Compact city parking and dwelling capability.</figcaption>
 </figure>
 
 ## Security
